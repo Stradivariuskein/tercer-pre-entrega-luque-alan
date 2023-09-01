@@ -134,12 +134,15 @@ class AccountUpdate(ContextMixin, UpdateView):
         return context
 
 
-@method_decorator(require_POST, name='dispatch')
+#@method_decorator(require_POST, name='dispatch')
 class HomeUpdate(ContextMixin,UpdateView):
     model = HomeFields
     fields = ['tittle', 'subTittle', 'faceImg', 'content']
-    template_name = 'administration/home_form.html'
+    template_name = 'administration/sectionForm.html'
     success_url = reverse_lazy('home-edit')
+
+def test(request, pk):
+    return HttpResponse(f"{request.POST}, {pk}")
 
 
 class HomeSectionCreate(ContextMixin,CreateView):

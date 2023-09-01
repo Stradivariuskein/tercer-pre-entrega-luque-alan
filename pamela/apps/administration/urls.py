@@ -1,6 +1,6 @@
 from django.urls import path, include 
 
-from .views import TypeSessionCreate, TypeSessionUpdate, TypeSessionDelete, AcountListView, AccountUpdate, accountDelete, TurnUpdate, view_typeSession, admin_turn, turnCreate
+from .views import TypeSessionCreate, TypeSessionUpdate, TypeSessionDelete, AcountListView, AccountUpdate, accountDelete, TurnUpdate, view_typeSession, admin_turn, turnCreate, test
 
 from decorators import add_general_context, admin_only
 from .views import HomeUpdate, HomeSectionCreate, HomeSectionUpdate, HomeSectionDelete, home_edit
@@ -18,6 +18,7 @@ urlpatterns = [
 
     path('home/edit', admin_only(add_general_context(home_edit)), name='home-edit'),
     path('home/update/<int:pk>/', admin_only(add_general_context(HomeUpdate.as_view())), name='home-update'),
+    #path('home/update/<int:pk>/', admin_only(add_general_context(test)), name='home-update'),
     path('home/section/create/', admin_only(add_general_context(HomeSectionCreate.as_view())), name='home-section-create'),
     path('home/section/update/<int:pk>/', admin_only(add_general_context(HomeSectionUpdate.as_view())), name='home-section-update'),
     path('home/section/delete/<int:pk>/', admin_only(add_general_context(HomeSectionDelete.as_view())), name='home-section-delete'),

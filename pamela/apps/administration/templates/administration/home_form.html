@@ -14,10 +14,10 @@
         <div style="width: 75%; margin: auto" class="py-5 align-items-center" >
                 <div class="container bg-secondary card">
                         <p>{{ msj }}</p>
-                        <form action="" method="post", class="align-items-center p-5">
-                        {% csrf_token %}                        
+                        <form action="{% url 'home-update' 1 %}" method="POST" class="align-items-center p-5"  enctype="multipart/form-data">
+                                {% csrf_token %}                        
                                 {{ form_home_fields|crispy }}
-                                <button type="submit", class="btn btn-success">{{ botton_text }}</button>
+                                <button type="submit" class="btn btn-success">{{ botton_text }}</button>
                         
                         </form>
                 </div>

@@ -13,9 +13,9 @@
      <header class="masthead bg-primary text-white text-center card">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5 rounded-circle" src="{% static 'core/assets/img/girl.webp' %}" alt="..." />
+            <img class="masthead-avatar mb-5 rounded-circle" src="/media/{{fields.faceImg}}" alt="..." />
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Lic. Pamela Luque</h1> <!-- titulo imagen -->
+            <h1 class="masthead-heading text-uppercase mb-0">{{fields.tittle}}</h1> <!-- titulo imagen -->
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -23,7 +23,7 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Psicologa - Orientacion moderna - Tratamientos psicologicos</p> <!-- orietaciones -->
+            <p class="masthead-subheading font-weight-light mb-0">{{fields.subTittle}}</p> <!-- orietaciones -->
         </div>
     </header>
 

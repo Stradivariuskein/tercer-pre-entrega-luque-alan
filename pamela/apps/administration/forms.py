@@ -21,7 +21,7 @@ class HomeFieldsForm(forms.ModelForm):
     tittle = forms.CharField(label= "Titulo")
     subTittle = forms.CharField(label="Subtitulo")
     faceImg = forms.ImageField(label="Imagen")
-    content = forms.CharField(label="Texto")
+    content = forms.CharField(label="Texto", required=False)
 
     class Meta:
         model = HomeFields
