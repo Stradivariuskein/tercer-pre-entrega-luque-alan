@@ -1,3 +1,7 @@
+#########################**IMPORTANTE**##################################
+Intale los requerimientos : pip install -r requirements.txt
+usuario: ad@admin.com       contraseña: 369258147pepe
+#########################################################################
 Turno para psicologia
 
 Pagina autogestion de turnos para sesion con psicologa.
