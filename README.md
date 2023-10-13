@@ -1,4 +1,4 @@
-++++++++++++++++++++++++++**IMPORTANTE**+++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++**IMPORTANTE**+++++++++++++++++++++++++++++++++\n
 Intale los requerimientos : pip install -r requirements.txt 
 usuario: ad@admin.com contraseña: 369258147pepe 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
