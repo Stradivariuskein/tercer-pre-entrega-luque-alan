@@ -1,10 +1,13 @@
 ++++++++++++++++++++++++++**IMPORTANTE**+++++++++++++++++++++++++++++++++
 
-Intale los requerimientos : pip install -r requirements.txt 
+Intale los requerimientos : pip install -r requirements.txt
+
 usuario: ad@admin.com contraseña: 369258147pepe 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 Turno para psicologia video explicativo: https://www.youtube.com/watch?v=YiBQzcy9BcE 
+
 Pagina autogestion de turnos para sesion con psicologa. hay sierta rutas bloquedas para los usuario q no son administradores /administration/*
 
 Tiene 5 apps: home: carta de presentacion de la psicologa views: home: muestra foto de portada y distintas secciones editables para el administrador. curriculum: muestra un poco de informacion sobre mi.
